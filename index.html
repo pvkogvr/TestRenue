@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Renue</title>
+</head>
+<body>
+    <div id="vending">
+        <div id="window">
+            <div id="product1">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product2">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product3">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product4">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product5">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product6">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product7">
+                <img id="immg">
+                <p></p>
+            </div>
+            <div id="product8">
+                <img id="immg">
+                <p></p>
+            </div>
+        </div>
+        <div id="menu">
+            <div id="renue">
+                <img src="./image/renue.svg" alt="renue">
+            </div>
+            <div id="myname">
+                <img src="./image/pvkog.svg" alt="MyName">
+            </div>
+            <div id="podmenu">
+                <div id="info"></div>
+                <div id="input"></div>
+                <div id="buttons">
+                        <button id="button50" onclick="addSum(50)">50</button>
+                        <button id="button100" onclick="addSum(100)">100</button>
+                        <button id="button500" onclick="addSum(500)">500</button>
+                        <button id="button1000" onclick="addSum(1000)">1000</button>
+                </div>
+                <div id="numb">
+                    <table>
+                        <tr>
+                            <th><button id="but_numb1" onclick="buyItem(1)">1</button></th>
+                            <th><button id="but_numb2" onclick="buyItem(2)">2</button></th>
+                            <th><button id="but_numb3" onclick="buyItem(3)">3</button></th>
+                        </tr>
+                        <tr>
+                            <th><button id="but_numb4" onclick="buyItem(4)">4</button></th>
+                            <th><button id="but_numb5" onclick="buyItem(5)">5</button></th>
+                            <th><button id="but_numb6" onclick="buyItem(6)">6</button></th>
+                        </tr>
+                        <tr>
+                            <th><button id="but_numb7" onclick="buyItem(7)">7</button></th>
+                            <th><button id="but_numb8" onclick="buyItem(8)">8</button></th>
+                            <th><button id="but_numb9">9</button></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <button id="but_change" onclick="finishsdacha();">Odd money</button>
+        </div>
+        <button id="delivery" onclick="wopp()">PUSH</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

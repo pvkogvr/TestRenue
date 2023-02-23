@@ -1,0 +1,237 @@
+#vending{
+    width: 593px; 
+    position: absolute; 
+    height: 701px; 
+    left: 423px; 
+    top: 5px; 
+    background: #E3DFDE; 
+    border: 5px solid #000000;
+}
+
+#renue{
+    position: absolute; 
+    width: 49px; 
+    height: 31px; 
+    left: 13px;
+    top: 20px;
+}
+
+#window{
+    position: absolute; 
+    width: 392px; 
+    height: 530px; 
+    left: 26px; 
+    top: 29px;
+    background: #1B1814; 
+    border-width: 1px 0px 1px 1px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#immg{
+    position: absolute; 
+    width: 115px; 
+    height: 136px; 
+    left: 0px; 
+    top: 0px;
+}
+
+p{
+    position: absolute; 
+    width: 115px; 
+    height: 15px; 
+    left: 0px; 
+    top: 129px; 
+    background: #E3DFDE; 
+    color: black; 
+    padding-bottom: 2px;
+}
+
+#product1{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 14px; 
+    top: 20px;
+}
+
+#product2{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 136px; 
+    top: 20px;
+}
+
+#product3{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 258px; 
+    top: 20px;
+}
+
+#product4{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 14px; 
+    top: 185px;
+}
+
+#product5{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 136px; 
+    top: 185px;
+}
+
+#product6{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 258px; 
+    top: 185px;
+}
+
+#product7{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 14px; 
+    top: 350px;
+}
+
+#product8{
+    position: absolute; 
+    width: 115px; 
+    height: 147px; 
+    left: 136px; 
+    top: 350px;
+}
+
+#menu{
+    position: absolute; 
+    width: 175.8px; 
+    height: 623px; 
+    left: 418px; 
+    top: 29px; 
+    background: #1B1814;
+}
+
+#podmenu{
+    position: absolute; 
+    width: 171px; 
+    height: 270px; 
+    left: 0px; 
+    top: 151px; 
+    background: #E3DFDE; 
+    border-radius: 30px;
+}
+
+#info{
+    position: absolute; 
+    width: 150px; 
+    height: 60px; 
+    left: 9px; 
+    top: 10px; 
+    color:aliceblue ;
+    background: #8CB0C6; 
+    border: 1px solid black; 
+    border-radius: 15px; 
+    text-align:center;
+}
+
+#input{
+    position: absolute; 
+    width: 75px; 
+    height: 20px; 
+    left: 49px; 
+    top: 76px; 
+    background:#FFFFFF;
+}
+
+#buttons{
+    position: absolute;
+    width: 99px;
+    height: 75px; 
+    left: 37px; 
+    top: 100px; 
+    background-color:#E3DFDE; 
+    border: 1px solid #FFFFFF; 
+    border-radius: 5px;
+}
+
+#button50, #button100, #button500, #button1000{
+    position: absolute; 
+    width: 45px; 
+    height: 32px;
+    font-family: 'Inter'; 
+    font-weight: 600; 
+    font-size: 16px; 
+    text-align:center; 
+    background-color: #1B1814; 
+    color: aliceblue; 
+    border-radius: 2px;
+}
+
+#button50{
+    left: 4px; 
+    top: 4px;
+}
+#button100{
+    left: 50px; 
+    top: 4px;
+}
+
+#button500{
+    left: 4px; 
+    top: 39px;
+}
+
+#button1000{
+    left: 50px; 
+    top: 39px;
+}
+
+#numb{
+    position: absolute; 
+    width: 87.4px; 
+    height: 87.4px; 
+    left: 44px; 
+    top: 180px;
+}
+
+#but_numb1, #but_numb2, #but_numb3, #but_numb4, #but_numb5, #but_numb6, #but_numb7, #but_numb8, #but_numb9{
+    width: 25px; 
+    height: 25px; 
+    font-size: 18px;
+}
+
+#but_change{
+    position: absolute; 
+    width: 87px; 
+    height: 35px; 
+    left: 44px; 
+    top: 427px;
+}
+
+#myname{
+    position: absolute; 
+    width: 105px; 
+    height: 60px; 
+    left: 10px; 
+    top: 57px;
+}
+#delivery{
+    position: absolute; 
+    width: 392px; 
+    height: 67px; 
+    left: 26px; 
+    top: 585px; 
+    border-radius: 20px 0px 0px 20px; 
+    border-width: 1px 0px 1px 1px;
+    font-size: 24px;
+    color:#E3DFDE;
+    background-color: #1B1814; 
+}
